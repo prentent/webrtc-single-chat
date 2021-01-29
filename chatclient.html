@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>WebRTC: RTCDataChannel</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="chatclient.css" type="text/css" media="all">
+    <script src="adapter.js"></script>
+    <script src="chatclient.js"></script>
+</head>
+
+<body>
+    <label for="username">用户名：
+        <input type="text" name="username" id="username" placeholder="请输入用户名">
+    </label>
+    <button id="connectButton" name="connectButton">
+        连接
+    </button>
+    <button id="disconnectButton" name="disconnectButton" disabled>
+        断开
+    </button>
+    <div class="chatbox">
+        <ul class="left-item"></ul>
+        <div id="receiveBox" class="right-item"></div>
+    </div>
+
+    <div class="messagebox">
+        <label for="message">输入一个消息：
+            <input type="text" name="message" id="message" placeholder="请输入消息" inputmode="latin" size=60 maxlength=120
+                disabled>
+        </label>
+        <button id="sendButton" name="sendButton" class="buttonright" disabled>
+            发送
+        </button>
+    </div>
+</body>
+
+</html>

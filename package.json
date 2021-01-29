@@ -1,0 +1,14 @@
+{
+  "name": "web-rtc",
+  "version": "1.0.0",
+  "description": "基于RTCDataChannel实现非音视频的P2P通信",
+  "main": "chatserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lh",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.33"
+  }
+}

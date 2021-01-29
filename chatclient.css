@@ -1,0 +1,29 @@
+
+.chatbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.chatbox .left-item{
+    border: 1px solid black;
+    flex-basis: 200px;
+    margin-top: 0px;
+    height: calc(80vh);
+    overflow: auto;
+}
+
+.chatbox .left-item div{
+    line-height: 25px;
+    height: 25px;
+    border-bottom: 1px solid black;
+}
+
+.chatbox .right-item{
+    border: 1px solid black;
+    width: calc(100vw - 200px);
+    margin-top: 0px;
+    height: calc(80vh);
+    overflow: auto;
+}
